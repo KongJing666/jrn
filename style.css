@@ -1,0 +1,335 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.con {
+    width: 966px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 100px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.header img{
+    width: 100px;
+    height: 100px;
+}
+/* .photo {
+    width: 100px;
+    height: 100px;
+    background: url(images/logo.jpg);
+    float: left;
+    margin-left: 50%;
+    background-position: center;
+    background-size: 100%;
+} */
+
+
+.nav {
+    height: 53px;
+    line-height: 53px;
+    border-top: 1px solid #edf4fc;
+    background-color: #274964;
+    color: aliceblue;
+}
+
+.nav li {
+    float: left;
+    font-size: 16px;
+    padding-right: 40px;
+}
+
+.nav a {
+    float: left;
+    font-size: 16px;
+    padding-right: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: black;
+    background-color: #B6B6B6;
+}
+
+.banner-container {
+    width: 1200px;
+    height: 400px;
+    margin: 0px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner-image-container {
+    width: 6000px;
+    height: 400px;
+    margin: 0px auto;
+    animation: text 30s infinite linear;
+    font-size: 0px;
+
+}
+
+.banner-image-container img {
+    width: 1200px;
+    height: 400px;
+    float: left;
+}
+
+@keyframes text {
+
+    0%,
+    10% {
+        transform: translateX(0px);
+    }
+
+    20%,
+    30% {
+        transform: translateX(-1200px);
+    }
+
+    40%,
+    50% {
+        transform: translateX(-2400px);
+    }
+
+    60%,
+    70% {
+        transform: translateX(-3600px);
+    }
+
+    80%,
+    90% {
+        transform: translateX(-4800px);
+    }
+
+    100%,
+    110% {
+        transform: translateX(0px);
+    }
+}
+
+
+
+.list {
+    height: 213px;
+    margin-top: 51px;
+    margin-bottom: 35px;
+}
+
+.vid {
+    margin-top: 15px;
+}
+
+.vid .text {
+    width: 50%;
+}
+
+.with {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.with img {
+    width: 400px;
+    height: 400px;
+}
+
+.item {
+    height: 300px;
+    width: 300px;
+    border: 1px solid #cccccc;
+    float: left;
+    margin-right: 12px;
+}
+
+.item img {
+    width: 300px;
+    height: 300px;
+    display: block;
+}
+
+.item p {
+    height: 47px;
+    padding-left: 28px;
+    line-height: 47px;
+    color: #274964;
+}
+
+#foot {
+    height: 40px;
+    width: 100%;
+    margin: 20px 0px;
+}
+
+#foot ul {
+    padding: 0px 5px 0px 200px;
+}
+
+#foot ul li a {
+    text-decoration: none;
+    line-height: 20px;
+    color: #333;
+    float: left;
+    width: 75px;
+    text-align: center;
+    padding: 10px;
+    display: block;
+    height: 20px;
+}
+
+p {
+    text-align: center;
+}
+
+.basic-grey {
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+    max-width: 500px;
+
+    background: #F7F7F7;
+
+    padding: 25px 15px 25px 10px;
+
+    font: 12px Georgia, "Times New Roman", Times, serif;
+
+    color: #888;
+
+    text-shadow: 1px 1px 1px #FFF;
+
+    border: 1px solid #E4E4E4;
+
+}
+
+.basic-grey h1 {
+
+    font-size: 25px;
+
+    padding: 0px 0px 10px 40px;
+
+    display: block;
+
+    border-bottom: 1px solid #E4E4E4;
+
+    margin: -10px -15px 30px -10px;
+    ;
+
+    color: #888;
+
+}
+
+.basic-grey h1>span {
+
+    display: block;
+
+    font-size: 11px;
+
+}
+
+.basic-grey label {
+
+    display: block;
+
+    margin: 0px;
+
+}
+
+.basic-grey label>span {
+
+    float: left;
+
+    width: 20%;
+
+    text-align: right;
+
+    padding-right: 10px;
+
+    margin-top: 10px;
+
+    color: #888;
+
+}
+
+.basic-grey input[type="text"],
+.basic-grey input[type="email"],
+.basic-grey textarea,
+.basic-grey select {
+
+    border: 1px solid #DADADA;
+
+    color: #888;
+
+    height: 30px;
+
+    margin-bottom: 16px;
+
+    margin-right: 6px;
+
+    margin-top: 2px;
+
+    outline: 0 none;
+
+    padding: 3px 3px 3px 5px;
+
+    width: 70%;
+
+    font-size: 12px;
+
+    line-height: 15px;
+
+    box-shadow: inset 0px 1px 4px #ECECEC;
+
+    -moz-box-shadow: inset 0px 1px 4px #ECECEC;
+
+    -webkit-box-shadow: inset 0px 1px 4px #ECECEC;
+
+}
+
+.basic-grey textarea {
+
+    padding: 5px 3px 3px 5px;
+
+}
+
+
+.basic-grey textarea {
+
+    height: 100px;
+
+}
+
+.basic-grey .button {
+
+    background: #E27575;
+
+    border: none;
+
+    padding: 10px 25px 10px 25px;
+
+    color: #FFF;
+
+    box-shadow: 1px 1px 5px #B6B6B6;
+
+    border-radius: 3px;
+
+    text-shadow: 1px 1px 1px #9E3F3F;
+
+    cursor: pointer;
+
+}
+
+.basic-grey .button:hover {
+
+    background: #CF7A7A
+}
